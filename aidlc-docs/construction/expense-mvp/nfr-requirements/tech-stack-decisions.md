@@ -1,3 +1,8 @@
+---
+layout: default
+title: 技術スタック決定
+---
+
 # 技術スタック決定 — expense-mvp
 
 ## 1. 技術スタック全体像

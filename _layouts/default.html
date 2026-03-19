@@ -104,6 +104,14 @@
     .sidebar-back:hover {
       background: #e8f0fe;
     }
+    .sidebar-phase {
+      font-size: 11px;
+      font-weight: bold;
+      color: #888;
+      padding: 6px 16px 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
     /* メインコンテンツ */
     .main {
@@ -170,6 +178,8 @@
 
     <div class="sidebar-divider"></div>
 
+    <div class="sidebar-phase">🔵 INCEPTION</div>
+
     <div class="sidebar-section">
       <div class="sidebar-section-title">要件定義</div>
       <ul class="sidebar-links">
@@ -190,12 +200,63 @@
     </div>
 
     <div class="sidebar-section">
-      <div class="sidebar-section-title">計画</div>
+      <div class="sidebar-section-title">計画（Inception）</div>
       <ul class="sidebar-links">
         <li><a href="{{ '/aidlc-docs/inception/plans/execution-plan' | relative_url }}" {% if page.url == '/aidlc-docs/inception/plans/execution-plan.html' %}class="active"{% endif %}>実行計画</a></li>
         <li><a href="{{ '/aidlc-docs/inception/plans/application-design-plan' | relative_url }}" {% if page.url == '/aidlc-docs/inception/plans/application-design-plan.html' %}class="active"{% endif %}>設計計画</a></li>
       </ul>
     </div>
+
+    <div class="sidebar-divider"></div>
+
+    <div class="sidebar-phase">🟢 CONSTRUCTION</div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">機能設計</div>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/functional-design/domain-entities' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/functional-design/domain-entities.html' %}class="active"{% endif %}>ドメインエンティティ</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/functional-design/business-rules' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/functional-design/business-rules.html' %}class="active"{% endif %}>ビジネスルール</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/functional-design/business-logic-model' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/functional-design/business-logic-model.html' %}class="active"{% endif %}>ビジネスロジックモデル</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/functional-design/frontend-components' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/functional-design/frontend-components.html' %}class="active"{% endif %}>フロントエンド設計</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">NFR要件</div>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/nfr-requirements/nfr-requirements' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/nfr-requirements/nfr-requirements.html' %}class="active"{% endif %}>NFR要件定義</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/nfr-requirements/tech-stack-decisions' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/nfr-requirements/tech-stack-decisions.html' %}class="active"{% endif %}>技術スタック決定</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">NFR設計</div>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/nfr-design/nfr-design-patterns' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/nfr-design/nfr-design-patterns.html' %}class="active"{% endif %}>NFR設計パターン</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/nfr-design/logical-components' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/nfr-design/logical-components.html' %}class="active"{% endif %}>論理コンポーネント構成</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">インフラ設計</div>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/infrastructure-design/infrastructure-design' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/infrastructure-design/infrastructure-design.html' %}class="active"{% endif %}>インフラ設計</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/expense-mvp/infrastructure-design/deployment-architecture' | relative_url }}" {% if page.url == '/aidlc-docs/construction/expense-mvp/infrastructure-design/deployment-architecture.html' %}class="active"{% endif %}>デプロイアーキテクチャ</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">計画（Construction）</div>
+      <ul class="sidebar-links">
+        <li><a href="{{ '/aidlc-docs/construction/plans/expense-mvp-functional-design-plan' | relative_url }}" {% if page.url == '/aidlc-docs/construction/plans/expense-mvp-functional-design-plan.html' %}class="active"{% endif %}>機能設計計画</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/plans/expense-mvp-nfr-requirements-plan' | relative_url }}" {% if page.url == '/aidlc-docs/construction/plans/expense-mvp-nfr-requirements-plan.html' %}class="active"{% endif %}>NFR要件計画</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/plans/expense-mvp-nfr-design-plan' | relative_url }}" {% if page.url == '/aidlc-docs/construction/plans/expense-mvp-nfr-design-plan.html' %}class="active"{% endif %}>NFR設計計画</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/plans/expense-mvp-infrastructure-design-plan' | relative_url }}" {% if page.url == '/aidlc-docs/construction/plans/expense-mvp-infrastructure-design-plan.html' %}class="active"{% endif %}>インフラ設計計画</a></li>
+        <li><a href="{{ '/aidlc-docs/construction/plans/expense-mvp-code-generation-plan' | relative_url }}" {% if page.url == '/aidlc-docs/construction/plans/expense-mvp-code-generation-plan.html' %}class="active"{% endif %}>コード生成計画</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-divider"></div>
 
     <div class="sidebar-section">
       <div class="sidebar-section-title">プロジェクト管理</div>

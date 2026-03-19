@@ -1,3 +1,8 @@
+---
+layout: default
+title: 機能設計計画
+---
+
 # 機能設計計画 — expense-mvp
 
 ## 設計スコープ

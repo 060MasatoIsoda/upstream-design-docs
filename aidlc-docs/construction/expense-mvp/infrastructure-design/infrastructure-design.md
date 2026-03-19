@@ -1,3 +1,8 @@
+---
+layout: default
+title: インフラ設計
+---
+
 # インフラ設計 — expense-mvp
 
 ## 1. AWSリソース一覧

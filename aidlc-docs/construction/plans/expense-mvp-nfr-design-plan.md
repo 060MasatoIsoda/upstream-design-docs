@@ -1,3 +1,8 @@
+---
+layout: default
+title: NFR設計計画
+---
+
 # NFR設計計画 — expense-mvp
 
 ## 設計スコープ

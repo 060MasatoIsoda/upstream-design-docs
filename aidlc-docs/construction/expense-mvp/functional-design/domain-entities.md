@@ -1,3 +1,8 @@
+---
+layout: default
+title: ドメインエンティティ定義
+---
+
 # ドメインエンティティ定義 — expense-mvp
 
 ## 1. エンティティ一覧

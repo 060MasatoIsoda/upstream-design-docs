@@ -1,3 +1,8 @@
+---
+layout: default
+title: インフラ設計計画
+---
+
 # インフラ設計計画 — expense-mvp
 
 ## 設計スコープ

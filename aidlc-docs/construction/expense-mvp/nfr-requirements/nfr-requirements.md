@@ -1,3 +1,8 @@
+---
+layout: default
+title: NFR要件定義
+---
+
 # NFR要件定義 — expense-mvp
 
 ## 1. 性能要件

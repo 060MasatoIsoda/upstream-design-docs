@@ -1,3 +1,8 @@
+---
+layout: default
+title: NFR設計パターン
+---
+
 # NFR設計パターン — expense-mvp
 
 ## 1. 認証・認可パターン

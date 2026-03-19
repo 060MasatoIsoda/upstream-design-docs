@@ -1,3 +1,8 @@
+---
+layout: default
+title: ビジネスルール定義
+---
+
 # ビジネスルール定義 — expense-mvp
 
 ## 1. 入力バリデーションルール

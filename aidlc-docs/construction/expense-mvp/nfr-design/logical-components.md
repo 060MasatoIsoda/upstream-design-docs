@@ -1,3 +1,8 @@
+---
+layout: default
+title: 論理コンポーネント構成
+---
+
 # 論理コンポーネント構成 — expense-mvp
 
 ## 1. AWSサービス構成図
