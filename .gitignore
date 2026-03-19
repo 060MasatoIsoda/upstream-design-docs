@@ -1,0 +1,18 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Kiro IDE
+.kiro/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~

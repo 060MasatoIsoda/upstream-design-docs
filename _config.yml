@@ -1,0 +1,10 @@
+# Jekyll設定（GitHub Pages用）
+title: 統合業務申請・承認プラットフォーム 設計ドキュメント
+description: MVP（経費精算モジュール）の設計ドキュメント
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+# ファイル除外設定
+exclude:
+  - .kiro
+  - README.md
