@@ -1,3 +1,8 @@
+---
+layout: default
+title: AI-DLC 状態追跡
+---
+
 # AI-DLC 状態追跡
 
 ## プロジェクト情報
